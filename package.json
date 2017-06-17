@@ -1,14 +1,39 @@
 {
-  "name": "AuthenticationInAngularJS",
-  "version": "0.0.1",
-  "private": true,
+  "name": "reflexologie",
+  "version": "1.0.0",
+  "description": "projet reflexologie",
+  "main": "public/index.html",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garciamarco33/R-flexologie.git"
+  },
+  "author": "Julien, Max, Amaury, Thibault, Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garciamarco33/R-flexologie/issues"
+  },
+  "homepage": "https://github.com/garciamarco33/R-flexologie#readme",
   "dependencies": {
-    "express": "3.3.5",
-    "ejs": "*",
-    "passport": "*",
-    "passport-local": "*"
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.3",
+    "express-logger": "0.0.3",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.2",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
