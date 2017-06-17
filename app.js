@@ -94,7 +94,6 @@ app.post('/login', passport.authenticate('local'), function(req, res) {
 
 // route to log out
 app.post('/logout', function(req, res) {
-	console.log("&&&&&&&&&&&&&&&&&&&&&&&", req.logOut(), res.sendStatus(200));
 	req.logOut();
 	res.sendStatus(200);
 });
